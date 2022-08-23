@@ -263,6 +263,7 @@ h3.txt-tl {
 .box {
     width: 60%;
     height: 70%;
+    margin: 0 auto;
     border-radius: 150px;
     box-shadow: 0 0 25px -3px rgba(0, 0, 0, 0.4);
 }
