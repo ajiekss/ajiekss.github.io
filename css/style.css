@@ -260,6 +260,12 @@ h3.txt-tl {
 	color: #fff;
 }
 /****/
+.box {
+    width: 60%;
+    height: 70%;
+    box-shadow: 0 0 25px -3px rgba(0, 0, 0, 0.4);
+}
+
 .portfolio-box
 {
 	margin-bottom: 15px;
