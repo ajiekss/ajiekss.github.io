@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6
 }
 .btn-submit
 {
-    background: rgb(59, 59, 180);
+    background: #53b6f0;
     border: 0px;
     display: inline-block;
     font-size: 16px;
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6
     font-weight: normal;
     border-radius: 8px;
     letter-spacing: 1px;
-    color: white;
+    color: #333;
     position: relative;
     overflow: hidden;
     -webkit-transition: all 0.4s ease-in-out;
@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6
     -ms-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     margin-top: 25px;
-    border: 2px solid rgb(59, 59, 180);
+    border: 2px solid  #FFD34E;
 }
 
 .btn-submit:hover {
