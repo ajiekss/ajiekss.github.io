@@ -263,12 +263,12 @@ h3.txt-tl {
 .box {
     width: 60%;
     height: 70%;
+    display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 25px -3px rgba(0, 0, 0, 0.4);
 }
 .box img{
-    background-position: center center;
     width: 100%;
     height: 100%;
 }
