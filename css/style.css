@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6
 }
 .btn-submit
 {
-    background: #53b6f0;
+    background: blue;
     border: 0px;
     display: inline-block;
     font-size: 16px;
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6
     font-weight: normal;
     border-radius: 8px;
     letter-spacing: 1px;
-    color: #333;
+    color: #fff;
     position: relative;
     overflow: hidden;
     -webkit-transition: all 0.4s ease-in-out;
