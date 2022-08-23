@@ -4,10 +4,6 @@
     Author: BootstrapMade.com
     Author URL: https://bootstrapmade.com
 */
-* {
-    margin: 0;
-    padding: 0;
-}
 
 body {
 	line-height: 1.5;
@@ -53,7 +49,6 @@ h1, h2, h3, h4, h5, h6
 }
 
 .nav > li > a {
-    display: flex;
     padding: 0px;
 }
 .navbar-brand
