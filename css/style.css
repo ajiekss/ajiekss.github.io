@@ -128,14 +128,14 @@ h1, h2, h3, h4, h5, h6
 }
 .btn-submit
 {
-    background: #FFD34E;
+    background: rgb(59, 59, 180);
     border: 0px;
     display: inline-block;
     font-size: 16px;
     text-transform: uppercase;
     padding: 10px 40px;
     font-weight: normal;
-    border-radius: 0px;
+    border-radius: 8pxpx;
     letter-spacing: 1px;
     color: #333;
     position: relative;
@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6
     -ms-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     margin-top: 25px;
-    border: 2px solid  #FFD34E;
+    border: 2px solid rgb(59, 59, 180);
 }
 
 .btn-submit:hover {
