@@ -6,14 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <title>Document</title>
-    <script>
+    <title>My Navbar</title>
+    <link rel="stylesheet" href="css/coba-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
         .container{
-            width:
+            width: 95%;
+            margin: auto;
+            margin-top:30vh;
+
         }
-    </script>
+    </style>
 </head>
 <body>
+    <nav>
+        <div class="logo">
+            <h4>A K S S</h4>
+        </div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
     <div class="container">
         <div class="owl-carousel owl-theme">
             <div class="item"><img src="img/port01.jpg" alt=""></div>
@@ -24,6 +47,7 @@
         </div>
     </div>
 </body>
+<script src="js/script.js"></script>
 <script src="js/jquery.min.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script>
@@ -38,10 +62,10 @@
             items:3
         },
         600:{
-            items:3
+            items:10
         },
         1000:{
-            items:1
+            items:10
         }
     }
 })
