@@ -199,7 +199,8 @@ h1, h2, h3, h4, h5, h6
 }
 .line {
     background-color: rgb(182, 178, 178);
-	height: 3px;
+	height: 1px;
+    box-shadow: 0 0 5px;
 }
 .section-title:hover .botm-line
 {
