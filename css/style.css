@@ -197,6 +197,10 @@ h1, h2, h3, h4, h5, h6
 	height: 3px;
 	display: inline-block;
 }
+.line {
+    background-color: rgb(182, 178, 178);
+	height: 3px;
+}
 .section-title:hover .botm-line
 {
 	width: 70px;
@@ -227,6 +231,7 @@ p
 {
 	font-size: 35px;
     color: #fd9105;
+    text-shadow: 2px 2px 4px #000000;
 }
 .icon-text {
     margin-left: 100px;
@@ -368,8 +373,8 @@ a, a:hover
 }
 .location-info p span {
     width: 40px;
-    font-size: 24px;
-    color: #666;
+    font-size: 15px;
+    color: rgb(252, 252, 252);
     vertical-align: middle;
 }
 .location-info p {
@@ -402,15 +407,12 @@ a, a:hover
 .footer-copyright {
     color: #fff;
     line-height: 32px;
-    text-align: left;
+    text-align: center;
 }
-.footer-social
-{
-	float: right;
-}
-.footer-social a {
-    font-size: 18px;
-    color: rgb(9, 245, 147);
+.footer-social a{
+    font-size: 20px;
+	color: #06fc2f;
+    padding: 5px;
 }
 .link-dec, .link-dec:hover{
     color: #000;
@@ -424,7 +426,7 @@ a, a:hover
 @media screen and (max-width: 576px){
     .navbar-toggle:hover, .navbar-toggle{
         background-color: #fff;
-        color: #000;
+        color: rgb(0, 0, 0);
     }
     .navbar-toggle{
         margin-top: 0px;
