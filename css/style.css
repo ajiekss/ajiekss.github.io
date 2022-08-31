@@ -27,7 +27,7 @@ table {
 }
 .section-padding
 {
-	padding: 60px 0px;
+	padding: 30px 0px;
 }
 h1, h2, h3, h4, h5, h6
 {
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6
 }
 .main-header
 {
-	background: url(../img/image-1.jpg) no-repeat;
+	background: url(../img/img-2.jpg) no-repeat;
 	background-size: cover;
 	min-height: 600px;
 }
@@ -101,24 +101,24 @@ h1, h2, h3, h4, h5, h6
 	z-index: 5;
 	font-size: 50px;
 	font-weight: 700;
-	color: #06ecfc;
+	color: #080808;
 	line-height: 38px;
 	letter-spacing: 4px;
 	opacity: 1;
 	text-transform: uppercase;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px #b3b3b3;
 }
 .sub-title
 {
     font-family: 'Kalam', cursive;
 	font-size: 50px;
 	font-weight: 700;
-	color: #fc0606;
+	color: #0e0d0d;
 	line-height: 71px;
 	letter-spacing: 4px;
 	opacity: 1;
 	text-transform: uppercase;
-    text-shadow: 2px 2px 4px white;
+    text-shadow: 2px 2px 4px rgb(156, 156, 156);
 }
 .title
 {
@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6
 }
 .btn-submit
 {
-    background: blue;
+    background: rgb(0, 0, 0);
     border: 0px;
     display: inline-block;
     font-size: 16px;
@@ -152,8 +152,8 @@ h1, h2, h3, h4, h5, h6
     -ms-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     margin-top: 25px;
-    border: 2px solid  rgb(0, 0, 0);
-    box-shadow: 2px 2px 4px #000000;
+    border: 2px solid  rgb(255, 255, 255);
+    box-shadow: 2px 2px 4px #fffefe;
 }
 
 .btn-submit:hover {
@@ -273,7 +273,7 @@ p
 .icon i
 {
 	font-size: 25px;
-    color: #fd9105;
+    color: #0c0c0c;
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -317,7 +317,7 @@ h3.txt-tl {
     background-position: center center;
 }
 .bg-image-2 {
-    background: url('../img/image-2.jpg') no-repeat center fixed;
+    background: url('../img/img-4.jpg') no-repeat center fixed;
     -webkit-background-size: 100% auto;
     -moz-background-size: 100% auto;
     -o-background-size: 100% auto;

@@ -4,7 +4,7 @@ autoplay:true,
 autoplayTimeout:5000,
 margin:10,
 nav: false,
-autoHeightClass: 'owl-height',
+autoHeight:true,
 responsive:{
     0:{
         items:1
