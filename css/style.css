@@ -161,6 +161,49 @@ h1, h2, h3, h4, h5, h6
     background: rgb(4, 161, 252);
     color: white;
 }
+
+/* timeline */
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 50px 0;
+    padding-left: 50px;
+}
+
+ul.timeline h5{
+    color: #1201ff;
+}
+
+ul.timeline p{
+    color: #000;
+}
+
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #ff4b03;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
 /****/
 #cta-1
 {
@@ -230,9 +273,36 @@ p
 }
 .icon i
 {
-	font-size: 35px;
+	font-size: 25px;
     color: #fd9105;
     text-shadow: 2px 2px 4px #000000;
+}
+
+.icon-persen {
+    position: relative;
+    height: 48px;
+    width: 48px;
+    float: left;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+.icon-persen i
+{
+	font-size: 30px;
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.skill-title h3{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Fugaz One', cursive;
+    text-shadow: 2px 2px 4px;
+}
+.skill-title hr{
+    background-color: black;
+    height: 5px;
+    border-radius: 20px;
 }
 .icon-text {
     margin-left: 100px;
@@ -270,6 +340,7 @@ h3.txt-tl {
     margin-bottom: 10px;
     font-weight: 700;
     color: #fff;
+    text-shadow: 2px 2px 4px white;
 }
 .cta-txt p
 {
@@ -386,6 +457,11 @@ a, a:hover
     line-height: 32px;
     color: #000;
 }
+
+.location-info a{
+    text-decoration: none;
+}
+
 .contact-icon-container {
     position: absolute;
     top: -38px;
