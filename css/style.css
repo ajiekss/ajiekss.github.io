@@ -110,28 +110,28 @@ h1, h2, h3, h4, h5, h6
 }
 .sub-title
 {
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Kalam', cursive;
 	font-size: 50px;
 	font-weight: 700;
-	color: #06ecfc;
+	color: #fc0606;
 	line-height: 71px;
 	letter-spacing: 4px;
 	opacity: 1;
 	text-transform: uppercase;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px white;
 }
 .title
 {
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Permanent Marker', cursive;
 	font-size: 100px;
 	font-weight: 700;
-	color: rgb(238, 216, 15);
+	color: rgb(8, 8, 8);
 	line-height: 88px;
 	letter-spacing: 4px;
 	opacity: 1;
 	text-transform: uppercase;
 	padding: 25px 0px;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px white;
 }
 .btn-submit
 {
