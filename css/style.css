@@ -239,11 +239,7 @@ ul.timeline > li:before {
 	height: 3px;
 	display: inline-block;
 }
-.line {
-    background-color: rgb(182, 178, 178);
-	height: 1px;
-    box-shadow: 0 0 5px;
-}
+
 .section-title:hover .botm-line
 {
 	width: 70px;
@@ -297,11 +293,7 @@ p
     font-size: 35px;
     text-shadow: 2px 2px 4px;
 }
-.skill-title hr{
-    background-color: black;
-    height: 5px;
-    border-radius: 20px;
-}
+
 .icon-text {
     margin-left: 100px;
     padding:0px 25px 25px 0px;
@@ -310,6 +302,13 @@ h3.txt-tl {
     font-size: 24px;
     line-height: 1.35;
 }
+/*  */
+
+.famouse{
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
 /****/
 .parallax {
     background-attachment: fixed;
@@ -355,7 +354,6 @@ h3.txt-tl {
 }
 .box img{
     border-radius: 20px;
-    z-index: -1;
 }
 
 .page .dot{
